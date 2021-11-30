@@ -38,7 +38,6 @@ if os.getenv("CONVERT_API") is not None:
 aboutDev = """About Dev:
 
 OwNeD By: @nabilanavab 😜
-Update Channel: @ilovepdf\_bot 😇                                                                
 
 Lang Used: Python🐍
 [Source Code](https://github.com/nabilanavab/ilovepdf)
@@ -153,7 +152,6 @@ def strt(message):
 ◍ `pdfتحويل الصور الى`
 ◍ `تحويل ملفات بي دي اف الى صور `
 ◍ `pdf تحويل الملفات الى `
-Update Channel: @ilovepdf\_bot 🤩
 
 [Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
 """
@@ -1277,7 +1275,6 @@ def strtMsgEdt(call):
                 types.InlineKeyboardButton("🔙 Home 🏡", callback_data = "back")
             )
             key.add(
-                types.InlineKeyboardButton("Close 🚶", callback_data = "close")
             )
             
             bot.edit_message_text(
@@ -1304,7 +1301,6 @@ def strtMsgEdt(call):
                 )
             )
             key.add(
-                types.InlineKeyboardButton("Close 🚶", callback_data = "close")
             )
             
             bot.edit_message_text(
@@ -1333,7 +1329,6 @@ def strtMsgEdt(call):
                 ),
             )
             key.add(
-                types.InlineKeyboardButton("Close 🚶", callback_data = "close")
             )
             
             bot.edit_message_text(
@@ -1361,7 +1356,6 @@ def strtMsgEdt(call):
                 ),
             )
             key.add(
-                types.InlineKeyboardButton("Close 🚶", callback_data = "close")
             )
             
             bot.edit_message_text(
@@ -1386,7 +1380,6 @@ def strtMsgEdt(call):
                 types.InlineKeyboardButton("Home 🏡", callback_data = "back"),
             )
             key.add(
-                types.InlineKeyboardButton("Close 🚶", callback_data = "close")
             )
             
             bot.edit_message_text(
@@ -1411,7 +1404,6 @@ def strtMsgEdt(call):
                 ),
             )
             key.add(
-                types.InlineKeyboardButton("Close 🚶", callback_data = "close")
             )
             
             bot.edit_message_text(
