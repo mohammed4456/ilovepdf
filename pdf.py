@@ -158,13 +158,11 @@ def strt(message):
 
 Update Channel: @ilovepdf\_bot 🤩
 
-[Source Code 🏆](https://github.com/nabilanavab/ilovepdf)
 [Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
 """
         key = types.InlineKeyboardMarkup()
         key.add(
-            types.InlineKeyboardButton("Source Code ❤️", callback_data = "strtDevEdt"),
-            types.InlineKeyboardButton("Explore More 🥳", callback_data = "imgsToPdfEdit"),
+           
         )
         key.add(
             types.InlineKeyboardButton("Close 🚶", callback_data = "close")
@@ -1412,10 +1410,10 @@ def strtMsgEdt(call):
             key = types.InlineKeyboardMarkup()
             key.add(
                 types.InlineKeyboardButton(
-                    "Source Code ❤️", callback_data = "strtDevEdt"
+                  
                 ),
                 types.InlineKeyboardButton(
-                    "Explore More 🥳", callback_data = "imgsToPdfEdit"
+                  
                 ),
             )
             key.add(
