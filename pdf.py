@@ -116,10 +116,10 @@ For bot updates join @ilovepdf\_bot 💎
 
 back2Start = """Hey..!! This bot will helps you to do many things with pdf's 🥳
 
-Some of the main features are:
-◍ `Convert images to PDF`
-◍ `Convert PDF to images`
-◍ `Convert files to pdf`
+الميزات الرئيسية 
+◍ `pdfتحويل الصور الى`
+◍ `الى صور pdf تحويل ملفات`
+◍ `pdf تحويل الملفات الى `
 
 For bot updates join @ilovepdf\_bot 💎                                                           
 
@@ -150,10 +150,11 @@ def strt(message):
         
         strtMsg = f"""Hey [{message.from_user.first_name}](tg://user?id={message.chat.id})..!! This bot will helps you to do many things with pdf's 🥳
 
-Some of the main features are:
-◍ `Convert images to PDF`
-◍ `Convert PDF to images`
-◍ `Convert files to pdf`                                                                         
+
+الميزات الرئيسية 
+◍ `pdfتحويل الصور الى`
+◍ `الى صور pdf تحويل ملفات`
+◍ `pdf تحويل الملفات الى `
 
 Update Channel: @ilovepdf\_bot 🤩
 
