@@ -165,7 +165,6 @@ Update Channel: @ilovepdf\_bot 🤩
            
         )
         key.add(
-            types.InlineKeyboardButton("Close 🚶", callback_data = "close")
         )
         
         bot.send_message(
@@ -1281,7 +1280,6 @@ def strtMsgEdt(call):
                 types.InlineKeyboardButton("🔙 Home 🏡", callback_data = "back")
             )
             key.add(
-                types.InlineKeyboardButton("Close 🚶", callback_data = "close")
             )
             
             bot.edit_message_text(
@@ -1308,7 +1306,6 @@ def strtMsgEdt(call):
                 )
             )
             key.add(
-                types.InlineKeyboardButton("Close 🚶", callback_data = "close")
             )
             
             bot.edit_message_text(
@@ -1337,7 +1334,6 @@ def strtMsgEdt(call):
                 ),
             )
             key.add(
-                types.InlineKeyboardButton("Close 🚶", callback_data = "close")
             )
             
             bot.edit_message_text(
@@ -1365,7 +1361,6 @@ def strtMsgEdt(call):
                 ),
             )
             key.add(
-                types.InlineKeyboardButton("Close 🚶", callback_data = "close")
             )
             
             bot.edit_message_text(
@@ -1390,7 +1385,6 @@ def strtMsgEdt(call):
                 types.InlineKeyboardButton("Home 🏡", callback_data = "back"),
             )
             key.add(
-                types.InlineKeyboardButton("Close 🚶", callback_data = "close")
             )
             
             bot.edit_message_text(
@@ -1417,7 +1411,6 @@ def strtMsgEdt(call):
                 ),
             )
             key.add(
-                types.InlineKeyboardButton("Close 🚶", callback_data = "close")
             )
             
             bot.edit_message_text(
