@@ -45,7 +45,7 @@ Lang Used: Python🐍
 
 Join @ilovepdf\_bot, if you ❤ this
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
+"""
 
 
 I2PMsg = """Images to pdf :
@@ -66,7 +66,7 @@ I2PMsg = """Images to pdf :
 
 For bot updates join @ilovepdf\_bot 💎
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
+"""
 
 
 P2IMsg = """PDF to images:
@@ -83,7 +83,7 @@ P2IMsg = """PDF to images:
 
 For bot updates join @ilovepdf\_bot 💎
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
+"""
 
 
 F2PMsg = """Files to PDF:
@@ -98,7 +98,7 @@ API LIMITS..😕
 
 For bot updates join @ilovepdf\_bot 💎                                                           
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
+"""
 
 
 warningMessage = """WARNING MESSAGE ⚠️:
@@ -111,7 +111,7 @@ IF THERE IS ANY KIND OF REPORTING, BUGS, REQUESTS, AND SUGGESTIONS PLEASE CONTAC
 
 For bot updates join @ilovepdf\_bot 💎                                                           
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
+"""
 
 
 back2Start = """Hey..!! This bot will helps you to do many things with pdf's 🥳
@@ -123,13 +123,11 @@ back2Start = """Hey..!! This bot will helps you to do many things with pdf's �
 
 For bot updates join @ilovepdf\_bot 💎                                                           
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
-
+"""
 
 feedbackMsg = """For bot updates.. join @ilovepdf\_bot 💎
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
-
+"""
 
 #global Variables
 PDF = {}   # for generating pdf
@@ -158,8 +156,7 @@ def strt(message):
 
 Update Channel: @ilovepdf\_bot 🤩
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
-"""
+""""""
         key = types.InlineKeyboardMarkup()
         key.add(
            
