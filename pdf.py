@@ -63,7 +63,6 @@ I2PMsg = """Images to pdf :
     - `/generate fileName` - to change pdf name to fileName🤞
     - `/generate name` - to get pdf with your telegram name
 
-For bot updates join @ilovepdf\_bot 💎
 
 [Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
 
@@ -80,7 +79,6 @@ P2IMsg = """PDF to images:
 
 1st bot on telegram wich send images without converting entire pdf to images
 
-For bot updates join @ilovepdf\_bot 💎
 
 [Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
 
@@ -95,7 +93,7 @@ F2PMsg = """Files to PDF:
 ◍ added 30+ new file formats that can be converted to pdf..
 API LIMITS..😕
 
-For bot updates join @ilovepdf\_bot 💎                                                           
+                                                           
 
 [Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
 
@@ -108,7 +106,7 @@ warningMessage = """WARNING MESSAGE ⚠️:
 
 IF THERE IS ANY KIND OF REPORTING, BUGS, REQUESTS, AND SUGGESTIONS PLEASE CONTACT @nabilanavab
 
-For bot updates join @ilovepdf\_bot 💎                                                           
+                                                           
 
 [Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
 
@@ -119,7 +117,7 @@ back2Start = """Hey..!! This bot will helps you to do many things with pdf's �
 ◍ `pdfتحويل الصور الى`
 ◍ `تحويل ملفات بي دي اف الى صور `
 ◍ `pdf تحويل الملفات الى `
-For bot updates join @ilovepdf\_bot 💎                                                           
+                                                           
 
 [Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
 
@@ -397,7 +395,7 @@ Due to Overload, bot supports only 20mb files
 
 `ERROR: {e}`
 
-For bot updates join @ilovepdf\_bot 💎""",
+""",
                     message_id = picMsgId.message_id,
                 )
                 
@@ -564,7 +562,7 @@ Join Update Channel @ilovepdf\_bot, More features soon 🔥""",
 
 `ERROR: {e}`
 
-For bot updates join @ilovepdf\_bot 💎
+
 """,
                         message_id = pdfMsgId.message_id,
                     )
@@ -1022,7 +1020,7 @@ key 🔐: `{password}`"""
 
 `ERROR: {e}`
 
-For bot updates join @ilovepdf\_bot 💎
+
 """,
                 message_id = pdfMsgId.message_id
             )
@@ -1153,7 +1151,7 @@ Page Number: {pgNmbr}"""
 
 `ERROR: {e}`
 
-For bot updates join @ilovepdf\_bot 💎
+
 """,
                 message_id = pdfMsgId.message_id
             )
