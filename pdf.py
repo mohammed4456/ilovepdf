@@ -41,11 +41,11 @@ OwNeD By: @nabilanavab 😜
 Update Channel: @ilovepdf\_bot 😇                                                                
 
 Lang Used: Python🐍
-
+[Source Code](https://github.com/nabilanavab/ilovepdf)
 
 Join @ilovepdf\_bot, if you ❤ this
 
-"""
+[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
 
 
 I2PMsg = """Images to pdf :
@@ -66,7 +66,7 @@ I2PMsg = """Images to pdf :
 
 For bot updates join @ilovepdf\_bot 💎
 
-"""
+[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
 
 
 P2IMsg = """PDF to images:
@@ -83,7 +83,7 @@ P2IMsg = """PDF to images:
 
 For bot updates join @ilovepdf\_bot 💎
 
-"""
+[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
 
 
 F2PMsg = """Files to PDF:
@@ -98,7 +98,7 @@ API LIMITS..😕
 
 For bot updates join @ilovepdf\_bot 💎                                                           
 
-"""
+[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
 
 
 warningMessage = """WARNING MESSAGE ⚠️:
@@ -111,7 +111,7 @@ IF THERE IS ANY KIND OF REPORTING, BUGS, REQUESTS, AND SUGGESTIONS PLEASE CONTAC
 
 For bot updates join @ilovepdf\_bot 💎                                                           
 
-"""
+[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
 
 
 back2Start = """Hey..!! This bot will helps you to do many things with pdf's 🥳
@@ -120,14 +120,15 @@ back2Start = """Hey..!! This bot will helps you to do many things with pdf's �
 ◍ `pdfتحويل الصور الى`
 ◍ `تحويل ملفات بي دي اف الى صور `
 ◍ `pdf تحويل الملفات الى `
-
 For bot updates join @ilovepdf\_bot 💎                                                           
 
-"""
+[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
+
 
 feedbackMsg = """For bot updates.. join @ilovepdf\_bot 💎
 
-"""
+[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
+
 
 #global Variables
 PDF = {}   # for generating pdf
@@ -154,12 +155,13 @@ def strt(message):
 ◍ `pdf تحويل الملفات الى `
 Update Channel: @ilovepdf\_bot 🤩
 
-""""""
+[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
+"""
         key = types.InlineKeyboardMarkup()
         key.add(
-           
         )
         key.add(
+            types.InlineKeyboardButton("Close 🚶", callback_data = "close")
         )
         
         bot.send_message(
@@ -1275,6 +1277,7 @@ def strtMsgEdt(call):
                 types.InlineKeyboardButton("🔙 Home 🏡", callback_data = "back")
             )
             key.add(
+                types.InlineKeyboardButton("Close 🚶", callback_data = "close")
             )
             
             bot.edit_message_text(
@@ -1301,6 +1304,7 @@ def strtMsgEdt(call):
                 )
             )
             key.add(
+                types.InlineKeyboardButton("Close 🚶", callback_data = "close")
             )
             
             bot.edit_message_text(
@@ -1329,6 +1333,7 @@ def strtMsgEdt(call):
                 ),
             )
             key.add(
+                types.InlineKeyboardButton("Close 🚶", callback_data = "close")
             )
             
             bot.edit_message_text(
@@ -1356,6 +1361,7 @@ def strtMsgEdt(call):
                 ),
             )
             key.add(
+                types.InlineKeyboardButton("Close 🚶", callback_data = "close")
             )
             
             bot.edit_message_text(
@@ -1380,6 +1386,7 @@ def strtMsgEdt(call):
                 types.InlineKeyboardButton("Home 🏡", callback_data = "back"),
             )
             key.add(
+                types.InlineKeyboardButton("Close 🚶", callback_data = "close")
             )
             
             bot.edit_message_text(
@@ -1399,13 +1406,12 @@ def strtMsgEdt(call):
             key = types.InlineKeyboardMarkup()
             key.add(
                 types.InlineKeyboardButton(
-                  
                 ),
                 types.InlineKeyboardButton(
-                  
                 ),
             )
             key.add(
+                types.InlineKeyboardButton("Close 🚶", callback_data = "close")
             )
             
             bot.edit_message_text(
