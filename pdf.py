@@ -37,15 +37,14 @@ if os.getenv("CONVERT_API") is not None:
 #message replies
 aboutDev = """About Dev:
 
-OwNeD By: @nabilanavab 😜
-Update Channel: @ilovepdf\_bot 😇                                                                
+OwNeD By: @pr_mn
+                                                            
 
 Lang Used: Python🐍
-[Source Code](https://github.com/nabilanavab/ilovepdf)
+[cs_duc](t.me//duc_cs)
 
-Join @ilovepdf\_bot, if you ❤ this
+Join @Pr_pdf\_bot, if you ❤ this
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
 
 
 I2PMsg = """Images to pdf :
@@ -64,9 +63,9 @@ I2PMsg = """Images to pdf :
     - `/generate fileName` - to change pdf name to fileName🤞
     - `/generate name` - to get pdf with your telegram name
 
-For bot updates join @ilovepdf\_bot 💎
+For bot updates join @Pr_pdf\_bot 💎
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
+[Write a feedback 📋](t.me//pr_mn)"""
 
 
 P2IMsg = """PDF to images:
@@ -81,10 +80,9 @@ P2IMsg = """PDF to images:
 
 1st bot on telegram wich send images without converting entire pdf to images
 
-For bot updates join @ilovepdf\_bot 💎
+For bot updates join @Pr_pdf\_bot 💎
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
-
+[Write a feedback 📋](t.me//pr_mn)"""
 
 F2PMsg = """Files to PDF:
 
@@ -96,10 +94,9 @@ F2PMsg = """Files to PDF:
 ◍ added 30+ new file formats that can be converted to pdf..
 API LIMITS..😕
 
-For bot updates join @ilovepdf\_bot 💎                                                           
+For bot updates join @Pr_pdf\_bot 💎                                                           
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
-
+[Write a feedback 📋](t.me//pr_mn)"""
 
 warningMessage = """WARNING MESSAGE ⚠️:
 
@@ -109,26 +106,26 @@ warningMessage = """WARNING MESSAGE ⚠️:
 
 IF THERE IS ANY KIND OF REPORTING, BUGS, REQUESTS, AND SUGGESTIONS PLEASE CONTACT @nabilanavab
 
-For bot updates join @ilovepdf\_bot 💎                                                           
+For bot updates join @Pr_pdf\_bot 💎                                                           
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
+[Write a feedback 📋](t.me//pr_mn)"""
 
 
 back2Start = """Hey..!! This bot will helps you to do many things with pdf's 🥳
 
-Some of the main features are:
-◍ `Convert images to PDF`
-◍ `Convert PDF to images`
-◍ `Convert files to pdf`
+الميزات الرئيسية
+◍ تحويل الصور إلى PDF
+◍ تحويل ملفات PDF إلى صور
+◍ تحويل الملفات إلى pdf
 
-For bot updates join @ilovepdf\_bot 💎                                                           
+For bot updates join @Pr_pdf\_bot  💎                                                           
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
+[Write a feedback 📋](t.me//pr_mn)"""
 
 
-feedbackMsg = """For bot updates.. join @ilovepdf\_bot 💎
+feedbackMsg = """For bot updates.. join @Pr_pdf\_bot  💎
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
+[Write a feedback 📋](t.me//pr_mn)"""
 
 
 #global Variables
@@ -150,15 +147,15 @@ def strt(message):
         
         strtMsg = f"""Hey [{message.from_user.first_name}](tg://user?id={message.chat.id})..!! This bot will helps you to do many things with pdf's 🥳
 
-Some of the main features are:
-◍ `Convert images to PDF`
-◍ `Convert PDF to images`
-◍ `Convert files to pdf`                                                                         
+الميزات الرئيسية
+◍ تحويل الصور إلى PDF
+◍ تحويل ملفات PDF إلى صور
+◍ تحويل الملفات إلى pdf
 
-Update Channel: @ilovepdf\_bot 🤩
 
-[Source Code 🏆](https://github.com/nabilanavab/ilovepdf)
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
+Update Channel: @Pr_pdf\_bot
+
+[Write a feedback 📋](t.me//pr_mn)"""
 """
         key = types.InlineKeyboardMarkup()
         key.add(
@@ -404,7 +401,7 @@ Due to Overload, bot supports only 20mb files
 
 `ERROR: {e}`
 
-For bot updates join @ilovepdf\_bot 💎""",
+For bot updates join  💎""",
                     message_id = picMsgId.message_id,
                 )
                 
