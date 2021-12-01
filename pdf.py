@@ -110,9 +110,10 @@ IF THERE IS ANY KIND OF REPORTING, BUGS, REQUESTS, AND SUGGESTIONS PLEASE CONTAC
 back2Start = """Hey..!! This bot will helps you to do many things with pdf's 🥳
 
 الميزات الرئيسية 
-◍ `pdfتحويل الصور الى`
-◍ `تحويل ملفات بي دي اف الى صور `
-◍ `pdf تحويل الملفات الى `
+1- `pdfتحويل الصور الى`
+
+    2-`تحويل ملفات بي دي اف الى صور `
+3-`pdf تحويل الملفات الى `
                                                            
 
 [Write a feedback 📋](https://t.me/pr_mn)"""
@@ -141,10 +142,11 @@ def strt(message):
         strtMsg = f"""Hey [{message.from_user.first_name}](tg://user?id={message.chat.id})..!! This bot will helps you to do many things with pdf's 🥳
 
 الميزات الرئيسية 
-◍ `pdfتحويل الصور الى`
-◍ `تحويل ملفات بي دي اف الى صور `
-◍ `pdf تحويل الملفات الى `
+1- `pdfتحويل الصور الى`
 
+    2-`تحويل ملفات بي دي اف الى صور `
+3-`pdf تحويل الملفات الى `
+              
 [Write a feedback 📋](https://t.me/pr_mn)"""
 
         key = types.InlineKeyboardMarkup()
