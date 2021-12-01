@@ -44,7 +44,7 @@ Lang Used: Python🐍
 
 Join @ilovepdf\_bot, if you ❤ this
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
+[Write a feedback 📋](https://t.me/pr_mn)"""
 
 
 I2PMsg = """Images to pdf :
@@ -64,8 +64,7 @@ I2PMsg = """Images to pdf :
     - `/generate name` - to get pdf with your telegram name
 
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
-
+[Write a feedback 📋](https://t.me/pr_mn)"""
 
 P2IMsg = """PDF to images:
 
@@ -80,8 +79,7 @@ P2IMsg = """PDF to images:
 1st bot on telegram wich send images without converting entire pdf to images
 
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
-
+[Write a feedback 📋](https://t.me/pr_mn)"""
 
 F2PMsg = """Files to PDF:
 
@@ -95,8 +93,7 @@ API LIMITS..😕
 
                                                            
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
-
+[Write a feedback 📋](https://t.me/pr_mn)"""
 
 warningMessage = """WARNING MESSAGE ⚠️:
 
@@ -108,8 +105,7 @@ IF THERE IS ANY KIND OF REPORTING, BUGS, REQUESTS, AND SUGGESTIONS PLEASE CONTAC
 
                                                            
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
-
+[Write a feedback 📋](https://t.me/pr_mn)"""
 
 back2Start = """Hey..!! This bot will helps you to do many things with pdf's 🥳
 
@@ -119,13 +115,11 @@ back2Start = """Hey..!! This bot will helps you to do many things with pdf's �
 ◍ `pdf تحويل الملفات الى `
                                                            
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
-
+[Write a feedback 📋](https://t.me/pr_mn)"""
 
 feedbackMsg = """For bot updates.. join @ilovepdf\_bot 💎
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
-
+[Write a feedback 📋](https://t.me/pr_mn)"""
 
 #global Variables
 PDF = {}   # for generating pdf
@@ -151,8 +145,8 @@ def strt(message):
 ◍ `تحويل ملفات بي دي اف الى صور `
 ◍ `pdf تحويل الملفات الى `
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
-"""
+[Write a feedback 📋](https://t.me/pr_mn)"""
+
         key = types.InlineKeyboardMarkup()
         key.add(
         )
