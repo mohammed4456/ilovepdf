@@ -117,7 +117,7 @@ back2Start = """Hey..!! This bot will helps you to do many things with pdf's �
 
 [Write a feedback 📋](https://t.me/pr_mn)"""
 
-feedbackMsg = """For bot updates.. join @ilovepdf\_bot 💎
+feedbackMsg = """For bot updates.. join @pr_mn 💎
 
 [Write a feedback 📋](https://t.me/pr_mn)"""
 
