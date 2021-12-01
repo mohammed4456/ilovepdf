@@ -157,7 +157,6 @@ def strt(message):
         key.add(
         )
         key.add(
-            types.InlineKeyboardButton("Close 🚶", callback_data = "close")
         )
         
         bot.send_message(
